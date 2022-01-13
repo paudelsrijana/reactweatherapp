@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+div#root {
+  width: 500px;
+  margin-left: 550px;
+}
+.container {
+  width: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header h1 {
+  text-align: center;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: aliceblue;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.weather-info {
+  height: 300px;
+  background-color: beige;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.weather-more-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-more-info img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.weather-info h1 {
+  cursor: pointer;
 }
